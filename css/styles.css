@@ -1,0 +1,29 @@
+/* id:n yhteysotsikko tyyliasetukset */
+#yhteysotsikko {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 6, 112);
+}
+
+/* luokan osoitelohko tyyliasetukset */
+.osoitelohko {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* taulukkotagin tyylimääritys */
+table {
+    font-family:Arial, Helvetica, sans-serif ;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+/* taulukon rivin (tagi) ominaisuuden nth-child tyylimääritys */
+tr:nth-child(even) {
+    background-color:gray;
+}
+
+/* taulukon solujen td ja th tyyli */
+th, td {
+    border: 2px solid rgb(109, 6, 112);
+    padding: 10px;
+}
